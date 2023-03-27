@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rodrigo Vizcarra">
+    <meta name="description" content="Banco de RollingCode">
+    <meta name="keywords" content="Banco, Banco de RollingCode">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>RollingBank</title>
+</head>
+
+<body class="bg-light">
+    <header>
+        <nav class="navbar bg-white  navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <h1>Rolling Bank</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navItems">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navItems" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/quienesSomos.html" class="nav-link">¿Quienes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/precios.html" class="nav-link">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/Seguridad.html" class="nav-link">Seguridad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/error404.html" class="nav-link">Robo o extravio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid main">
+        <div id="carouselPrincipal" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="0" class="active" aria-current="carousel" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/banner/bitcoin.jpg" class="d-block w-100 imgCarousel" alt="Imagen de Bitcoin">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner/cajero.jpg" class="d-block w-100 imgCarousel" alt="Imagen de cajero">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner/dolar.jpg" class="d-block w-100 imgCarousel" alt="Imagen de dolar">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrincipal" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="carousel"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPrincipal" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="carousel"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <aside class="container-fluid asideCards">
+            <div class="container-fluid container-lg contenedorTarjetas">       
+                <section class="tarjetas border d-flex flex-column justify-content-center shadow">
+                    <header>
+                        <i class="bi bi-hand-thumbs-up icons iconRed"></i>
+                        <h4>Sin sorpresas</h4>
+                    </header>
+                    <p>
+                        Somos transparentes, no vas a encontrar letra chica
+                    </p>
+                </section>
+    
+                <section class="tarjetas border d-flex flex-column justify-content-center shadow">
+                    <header>
+                        <i class="bi bi-emoji-smile icons iconBlue"></i>
+                        <h4>Aprobado</h4>
+                    </header>
+                    <p>
+                        Estamos autorizados y regulados por el Banco Central
+                    </p>
+                </section>
+                <section class="tarjetas border d-flex flex-column justify-content-center shadow">
+                    <header>
+                        <i class="bi bi-currency-dollar icons iconGreen"></i>
+                        <h4>Sin sorpresas</h4>
+                    </header>
+                    <p>
+                        Somos transparentes, no vas a encontrar letra chica
+                    </p>
+                </section>    
+            </div>
+        </aside>
+        <div class="container-fluid mb-4">
+            <div class="row container-lg mx-auto">
+                <div class="containerIphoneImage col-md-4">
+                    <img class="iphoneImage" src="./img/iphone-illustration-sec.png" alt="">
+                </div>
+                <section class="col-md-8 my-3">
+                    <header class="row">
+                        <h2>Tu seguridad como prioridad</h2>
+                        <p>Seguimos las mejores prácticas en cyberseguridad sin complicarte tu operación diaria</p>
+                    </header>
+                    <div class="row">
+                        <section class="col-md-6 col-lg-6 my-3">
+                            <i class="bi bi-eye icons iconRed"></i>
+                            <h3>Biometría</h3>
+                            <p>
+                                Nuestra tecnología te permite acceder a tu cuenta usando tu huella digital o tu cara.
+                            </p> 
+                        </section>
+                        <section class="col-md-6 col-lg-6 my-3">
+                            <i class="bi bi-fingerprint icons iconBlue"></i>
+                            <h3>Segundo Factor</h3>
+                            <p>
+                                Usamos un Token invisible para todas las operaciones que hagas.
+                            </p> 
+                        </section>
+                        <section class="col-md-6 col-lg-6 my-3">
+                            <i class="bi bi-puzzle icons iconSkyBlue"></i>
+                            <h3>Personal</h3>
+                            <p>
+                                Vas a poder ingresar desde un dispositivo a la vez a tu cuenta.
+                            </p> 
+                        </section>
+                        <section class="col-md-6 col-lg-6 my-3">
+                            <i class="bi bi-robot icons iconGreen"></i>
+                            <h3>100% encriptado</h3>
+                            <p>
+                                Usamos un Token invisible para todas las operaciones que hagas. Todas las transacciones son encriptadas para tu mayor seguridad.
+                            </p> 
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid bg-primary text-white py-4">
+            <section class=" text-center">
+                <h3 class="display-5">RollingBank te esta esperando</h3>
+                <p>
+                    Bajá y viví una nueva experiencia. Empezá creando tu cuenta sólo con tu DNI 
+                </p>
+                
+                <div>
+                    <a href="./pages/error404.html">
+                        <img class="p-1" src="./img/google-play-badge-bb.svg" alt="">
+                    </a>
+                    <a href="./pages/error404.html">
+                        <img class="p-1" src="./img/badge-apple-store.svg" alt="">
+                    </a>
+                </div>
+            </section> 
+        </div>
+    </main>
+    <footer class="container-fluid bg-dark text-secondary">
+        <section class="container row py-4 p-md-4 mx-auto">
+            <h4 class="d-inline"><a class="text-decoration-none text-white" href="./index.html">Rolling Bank</a></h4>
+            <div class="mb-5">
+                <a class="ms-1 link-secondary" href="#"><i class="fs-4 bi bi-facebook"></i></a>
+                <a class="ms-1 link-secondary" href="#"><i class="fs-4 bi bi-twitter"></i></a>
+                <a class="ms-1 link-secondary" href="#"><i class="fs-4 bi bi-instagram"></i></a>
+            </div>
+            <section class="col-md-6 col-lg-3 py-2">
+                <h5>Navegación</h5>
+                <ul class="list-unstyled">
+                    <li><a class="text-decoration-none text-secondary" href="./pages/quienesSomos.html">¿Quiénes somos?</a></li>
+                    <li><a class="text-decoration-none text-secondary" href="./pages/precios.html">Precios</a></li>
+                    <li><a class="text-decoration-none text-secondary" href="./pages/Seguridad.html">Seguridad</a></li>
+                    <li><a class="text-decoration-none text-secondary" href="./pages/error404.html">Ayuda</a></li>
+                    <li><a class="text-decoration-none text-secondary" href="./pages/error404.html">Robo o extravio</a></li>
+                </ul>
+            </section>
+            <section class="col-md-6 col-lg-3 py-2">
+                <h5>Legales</h5>
+                <ul class="list-unstyled">
+                    <li><a class="text-decoration-none text-secondary" href="./pages/error404.html">Regimen de transparencia</a></li>
+                    <li><a class="text-decoration-none text-secondary" href="./pages/error404.html">Usuario bancario</a></li>
+                    <li><a class="text-decoration-none text-secondary" href="./pages/error404.html">Conducta bancaria</a></li>
+                    <li><a class="text-decoration-none text-secondary" href="./pages/error404.html">Estados contables</a></li>
+                    <li><a class="text-decoration-none text-secondary" href="./pages/error404.html">Terminos y condiciones</a></li>
+                </ul>
+            </section>
+            <aside class="col-md-6 col-lg-3 py-2">
+                <div>
+                    <a href="https://www.bcra.gob.ar/bcrayvos/usuarios_financieros.asp">
+                        <img class="w-100" src="./img/usuariosfinancieros.png" alt="">
+                    </a>
+                </div>
+            </aside>
+            <section class="col-md-6 col-lg-3 py-2">
+                <h5>Unite</h5>
+                <div>
+                    <a href="./pages/error404.html">
+                        <img class="my-2 shadow" src="./img/google-play-badge-bb.svg" alt="play store app">
+                    </a>
+                    <a href="./pages/error404.html">
+                        <img class="my-2 shadow" src="./img/badge-apple-store.svg" alt="apple store app">
+                    </a>
+                </div>
+            </section>
+        </section>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
+
+

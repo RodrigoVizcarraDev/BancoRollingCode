@@ -1,0 +1,135 @@
+:root {
+    --color_blue: rgb(37, 59, 252);
+    --color_green: rgb(63, 216, 63);
+    --color_red: rgb(237, 38, 38);
+    --color_skyBlue: rgb(87, 228, 244);
+    --color_skyBlueDark: rgb(48, 202, 219);
+    --color_yellow: rgb(255, 204, 2);
+}
+
+
+.main {
+    padding: 0;
+    width: 100%;
+}
+
+.imgCarousel {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.asideCards {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contenedorTarjetas{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetas {
+    width: 100%;
+    height: 190px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.icons {
+    font-size: 40px;
+}
+
+.iconRed {
+    color: var(--color_red);
+}
+
+.iconBlue {
+    color: var(--color_blue);
+}
+
+.iconGreen {
+    color: var(--color_green);
+}
+
+.iconSkyBlue {
+    color: var(--color_skyBlue);
+}
+
+.iconSkyBlueDark {
+    color: var(--color_skyBlueDark);
+}
+
+.iconYellow {
+    color: var(--color_yellow);
+}
+
+.containerIphoneImage {
+    text-align: center;
+}
+
+.iphoneImage {
+    width: 90%;
+}
+
+.botonPrecio {
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+
+@media screen and (min-width:577px) and (max-width:844px){
+    
+    .imgCarousel {
+        height: 400px;
+    }
+    .contenedorImagenPrincipal {
+        background-image: url(../img/banner/cajero.jpg);
+    }
+
+    .contenedorTarjetas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .tarjetas {
+        width: 45%;
+    }
+
+    .iphoneImage {
+        width: 90%;
+    }
+  
+}
+
+@media screen and (min-width: 845px){
+    .botonPrecio {
+        width: 35px;
+        height: 35px;
+    }
+
+    .imgCarousel {
+        height: 500px;
+    }
+    .contenedorTarjetas {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .tarjetas {
+        width: 33%;
+
+    }
+    .iphoneImage {
+        width: 90%;
+
+    }
+
+    .tuSeguridadContainer {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
